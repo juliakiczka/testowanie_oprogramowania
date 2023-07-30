@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "addBoard",
-			"_postman_id": "984d31c8-ee75-4a66-9e86-8d90b2482861",
+			"id": "984d31c8-ee75-4a66-9e86-8d90b2482861",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -15,7 +15,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/?name=Tablica Testowa&key=4f3fe9fdd287efbadf3749be60550d51&token=ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA",
+					"raw": "https://api.trello.com/1/boards/?name=Tablica Testowa1&key=4f3fe9fdd287efbadf3749be60550d51&token=ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -30,7 +30,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Tablica Testowa"
+							"value": "Tablica Testowa1"
 						},
 						{
 							"key": "key",
@@ -38,8 +38,7 @@
 						},
 						{
 							"key": "token",
-							"value": "ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA",
-							"type": "default"
+							"value": "ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA"
 						}
 					]
 				}
@@ -48,7 +47,7 @@
 		},
 		{
 			"name": "addList",
-			"_postman_id": "10e073c7-2b9f-4135-9057-a90ac5efa5f2",
+			"id": "10e073c7-2b9f-4135-9057-a90ac5efa5f2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -91,7 +90,7 @@
 		},
 		{
 			"name": "createCard",
-			"_postman_id": "e400f013-85f0-4551-ba82-d8e53a08d656",
+			"id": "e400f013-85f0-4551-ba82-d8e53a08d656",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -138,7 +137,7 @@
 		},
 		{
 			"name": "updateChecklist",
-			"_postman_id": "e1b1b80b-4ed3-4db4-9e74-5aad0d79262d",
+			"id": "e1b1b80b-4ed3-4db4-9e74-5aad0d79262d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -182,7 +181,7 @@
 		},
 		{
 			"name": "addListWithEnvironment",
-			"_postman_id": "57401cc5-abb2-4158-8712-36b38375f347",
+			"id": "57401cc5-abb2-4158-8712-36b38375f347",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -225,7 +224,7 @@
 		},
 		{
 			"name": "deleteCard",
-			"_postman_id": "02c6b168-2a8c-4277-b178-d9fa893c91b4",
+			"id": "02c6b168-2a8c-4277-b178-d9fa893c91b4",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -261,20 +260,19 @@
 		},
 		{
 			"name": "addOrganization",
-			"_postman_id": "2897e8e3-a18c-4486-b69d-1b86af11c13d",
+			"id": "2897e8e3-a18c-4486-b69d-1b86af11c13d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": []
 			},
 			"response": []
 		},
 		{
 			"name": "addLabel",
-			"_postman_id": "3a564ee7-2da2-4ec6-b247-69c43af85b80",
+			"id": "3a564ee7-2da2-4ec6-b247-69c43af85b80",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -321,7 +319,7 @@
 		},
 		{
 			"name": "addChecklist",
-			"_postman_id": "4e6bd380-271d-49ea-887c-b1734062bb90",
+			"id": "4e6bd380-271d-49ea-887c-b1734062bb90",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
