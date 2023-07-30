@@ -1,1 +1,2 @@
-# testowanie_oprogramowania
+# Kurs testerski SDA
+Integracja Postman - Github
