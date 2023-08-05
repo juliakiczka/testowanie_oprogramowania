@@ -103,7 +103,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/cards?idList=64c634ab6e7e8a8bf64dd687&key={{APIKey}}&token={{Token}}&name=Druga kartka&desc=Drugi opis",
+					"raw": "https://api.trello.com/1/cards?idList=64ce2eb560746afae0cd80d9&key={{APIKey}}&token={{Token}}&name=drugie zadanie&desc=zapomnij",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -117,7 +117,7 @@
 					"query": [
 						{
 							"key": "idList",
-							"value": "64c634ab6e7e8a8bf64dd687"
+							"value": "64ce2eb560746afae0cd80d9"
 						},
 						{
 							"key": "key",
@@ -129,11 +129,11 @@
 						},
 						{
 							"key": "name",
-							"value": "Druga kartka"
+							"value": "drugie zadanie"
 						},
 						{
 							"key": "desc",
-							"value": "Drugi opis"
+							"value": "zapomnij"
 						}
 					]
 				}
