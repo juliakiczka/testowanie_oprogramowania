@@ -440,8 +440,37 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/64ce2de0f212552695c6e365?key={{APIKey}}&token={{Token}}&desc=Tablica testowa Trello API",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"64ce2de0f212552695c6e365"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "desc",
+							"value": "Tablica testowa Trello API",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
