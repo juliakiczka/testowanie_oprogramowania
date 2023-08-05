@@ -359,7 +359,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/checklists?idCard=64c643d8a3600d3091313898&key={{APIKey}}&token={{Token}}&name=Checklista",
+					"raw": "https://api.trello.com/1/checklists?idCard=64ce345d6f161ed43ebb173a&key={{APIKey}}&token={{Token}}&name=Progress zjebania",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -373,7 +373,7 @@
 					"query": [
 						{
 							"key": "idCard",
-							"value": "64c643d8a3600d3091313898"
+							"value": "64ce345d6f161ed43ebb173a"
 						},
 						{
 							"key": "key",
@@ -385,8 +385,7 @@
 						},
 						{
 							"key": "name",
-							"value": "Checklista",
-							"type": "default"
+							"value": "Progress zjebania"
 						}
 					]
 				}
