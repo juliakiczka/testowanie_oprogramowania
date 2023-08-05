@@ -60,7 +60,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/lists?name=done&idBoard=64ce2de0f212552695c6e365&key=4f3fe9fdd287efbadf3749be60550d51&token=ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA",
+					"raw": "https://api.trello.com/1/lists?name=in progress&idBoard=64ce2de0f212552695c6e365&key=4f3fe9fdd287efbadf3749be60550d51&token=ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -74,7 +74,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "done"
+							"value": "in progress"
 						},
 						{
 							"key": "idBoard",
