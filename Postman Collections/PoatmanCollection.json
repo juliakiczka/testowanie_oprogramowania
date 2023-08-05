@@ -394,7 +394,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "addLabelToCard",
 			"id": "071fed08-5ea9-474e-bfe6-f1c415871462",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
