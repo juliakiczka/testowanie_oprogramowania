@@ -312,7 +312,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/labels?name=Pierwsza labelka&color=blue&idBoard=64c62e005a79455b3dfbe035&key={{APIKey}}&token={{Token}}",
+					"raw": "https://api.trello.com/1/labels?name=Czerwona labelka&color=red&idBoard=64ce2de0f212552695c6e365&key={{APIKey}}&token={{Token}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -326,15 +326,15 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Pierwsza labelka"
+							"value": "Czerwona labelka"
 						},
 						{
 							"key": "color",
-							"value": "blue"
+							"value": "red"
 						},
 						{
 							"key": "idBoard",
-							"value": "64c62e005a79455b3dfbe035"
+							"value": "64ce2de0f212552695c6e365"
 						},
 						{
 							"key": "key",
