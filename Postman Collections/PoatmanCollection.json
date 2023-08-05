@@ -403,7 +403,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/cards/64ce34348cc22e46619a855d/idLabels?key={{APIKey}}&token={{Token}}&value=64ce35fd1c4039274b9448f4",
+					"raw": "https://api.trello.com/1/cards/64ce345d6f161ed43ebb173a/idLabels?key={{APIKey}}&token={{Token}}&value=64ce36237a18b555e9a1fe68",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -413,7 +413,7 @@
 					"path": [
 						"1",
 						"cards",
-						"64ce34348cc22e46619a855d",
+						"64ce345d6f161ed43ebb173a",
 						"idLabels"
 					],
 					"query": [
@@ -427,8 +427,7 @@
 						},
 						{
 							"key": "value",
-							"value": "64ce35fd1c4039274b9448f4",
-							"type": "text"
+							"value": "64ce36237a18b555e9a1fe68"
 						}
 					]
 				}
