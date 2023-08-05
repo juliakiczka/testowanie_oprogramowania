@@ -434,7 +434,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "updateBoard",
 			"id": "ccbb57a4-5e8a-44d1-b37e-e817b57b23fe",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
