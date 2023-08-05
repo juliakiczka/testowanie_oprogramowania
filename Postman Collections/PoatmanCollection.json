@@ -103,7 +103,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/cards?idList=64ce2eb560746afae0cd80d9&key={{APIKey}}&token={{Token}}&name=drugie zadanie&desc=zapomnij",
+					"raw": "https://api.trello.com/1/cards?idList=64ce2fa2577ce94ae84c001a&key={{APIKey}}&token={{Token}}&name=drugie zadanie&desc=kolejne zadanie",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -117,7 +117,7 @@
 					"query": [
 						{
 							"key": "idList",
-							"value": "64ce2eb560746afae0cd80d9"
+							"value": "64ce2fa2577ce94ae84c001a"
 						},
 						{
 							"key": "key",
@@ -133,7 +133,7 @@
 						},
 						{
 							"key": "desc",
-							"value": "zapomnij"
+							"value": "kolejne zadanie"
 						}
 					]
 				}
