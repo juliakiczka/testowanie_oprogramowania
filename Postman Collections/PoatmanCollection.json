@@ -10,52 +10,148 @@
 			"item": [
 				{
 					"name": "post",
-					"item": [],
+					"item": [
+						{
+							"name": "createBoard",
+							"id": "6b78000b-5ebd-4db6-a7dd-e5882c162fba",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://api.trello.com/1/boards/?name=ProjektKońcowy&key={{APIKey}}&token={{Token}}&idOrganization={{{{idOrganization}}}}",
+									"protocol": "https",
+									"host": [
+										"api",
+										"trello",
+										"com"
+									],
+									"path": [
+										"1",
+										"boards",
+										""
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "ProjektKońcowy"
+										},
+										{
+											"key": "key",
+											"value": "{{APIKey}}"
+										},
+										{
+											"key": "token",
+											"value": "{{Token}}"
+										},
+										{
+											"key": "idOrganization",
+											"value": "{{{{idOrganization}}}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createList",
+							"id": "10e073c7-2b9f-4135-9057-a90ac5efa5f2",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://api.trello.com/1/lists?name=testing&idBoard={{idBoard}}&key=4f3fe9fdd287efbadf3749be60550d51&token=ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA",
+									"protocol": "https",
+									"host": [
+										"api",
+										"trello",
+										"com"
+									],
+									"path": [
+										"1",
+										"lists"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "testing"
+										},
+										{
+											"key": "idBoard",
+											"value": "{{idBoard}}"
+										},
+										{
+											"key": "key",
+											"value": "4f3fe9fdd287efbadf3749be60550d51"
+										},
+										{
+											"key": "token",
+											"value": "ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createCard",
+							"id": "e400f013-85f0-4551-ba82-d8e53a08d656",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://api.trello.com/1/cards?idList={{testingList}}&key={{APIKey}}&token={{Token}}&name=first task&desc=description",
+									"protocol": "https",
+									"host": [
+										"api",
+										"trello",
+										"com"
+									],
+									"path": [
+										"1",
+										"cards"
+									],
+									"query": [
+										{
+											"key": "idList",
+											"value": "{{testingList}}"
+										},
+										{
+											"key": "key",
+											"value": "{{APIKey}}"
+										},
+										{
+											"key": "token",
+											"value": "{{Token}}"
+										},
+										{
+											"key": "name",
+											"value": "first task"
+										},
+										{
+											"key": "desc",
+											"value": "description"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
 					"id": "aa20197d-adfa-4873-97b6-7bf0c1356820"
 				},
 				{
-					"name": "createBoard",
-					"id": "6b78000b-5ebd-4db6-a7dd-e5882c162fba",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"url": {
-							"raw": "https://api.trello.com/1/boards/?name=ProjektKońcowy&key={{APIKey}}&token={{Token}}&idOrganization={{{{idOrganization}}}}",
-							"protocol": "https",
-							"host": [
-								"api",
-								"trello",
-								"com"
-							],
-							"path": [
-								"1",
-								"boards",
-								""
-							],
-							"query": [
-								{
-									"key": "name",
-									"value": "ProjektKońcowy"
-								},
-								{
-									"key": "key",
-									"value": "{{APIKey}}"
-								},
-								{
-									"key": "token",
-									"value": "{{Token}}"
-								},
-								{
-									"key": "idOrganization",
-									"value": "{{{{idOrganization}}}}"
-								}
-							]
-						}
-					},
-					"response": []
+					"name": "New Folder",
+					"item": [],
+					"id": "a46e783c-4293-4b8a-b4a5-a92fe37c92d9"
 				},
 				{
 					"name": "getBoard",
@@ -169,96 +265,6 @@
 								{
 									"key": "key",
 									"value": "{{APIKey}}"
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "createList",
-					"id": "10e073c7-2b9f-4135-9057-a90ac5efa5f2",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"url": {
-							"raw": "https://api.trello.com/1/lists?name=testing&idBoard={{idBoard}}&key=4f3fe9fdd287efbadf3749be60550d51&token=ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA",
-							"protocol": "https",
-							"host": [
-								"api",
-								"trello",
-								"com"
-							],
-							"path": [
-								"1",
-								"lists"
-							],
-							"query": [
-								{
-									"key": "name",
-									"value": "testing"
-								},
-								{
-									"key": "idBoard",
-									"value": "{{idBoard}}"
-								},
-								{
-									"key": "key",
-									"value": "4f3fe9fdd287efbadf3749be60550d51"
-								},
-								{
-									"key": "token",
-									"value": "ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA"
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "createCard",
-					"id": "e400f013-85f0-4551-ba82-d8e53a08d656",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"url": {
-							"raw": "https://api.trello.com/1/cards?idList={{testingList}}&key={{APIKey}}&token={{Token}}&name=first task&desc=description",
-							"protocol": "https",
-							"host": [
-								"api",
-								"trello",
-								"com"
-							],
-							"path": [
-								"1",
-								"cards"
-							],
-							"query": [
-								{
-									"key": "idList",
-									"value": "{{testingList}}"
-								},
-								{
-									"key": "key",
-									"value": "{{APIKey}}"
-								},
-								{
-									"key": "token",
-									"value": "{{Token}}"
-								},
-								{
-									"key": "name",
-									"value": "first task"
-								},
-								{
-									"key": "desc",
-									"value": "description"
 								}
 							]
 						}
@@ -650,12 +656,12 @@
 	],
 	"variable": [
 		{
-			"id": "9aabf1ab-effa-4055-8e31-99d267e306af",
+			"id": "290edf67-d575-4552-94d1-3bb20420a2c9",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "a9ce493c-d290-4951-81b3-13193c7963c0",
+			"id": "0292752f-7e91-4cc5-a153-c4bc392238fe",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
