@@ -9,7 +9,7 @@
 			"name": "projektKońcowy",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "createBoard",
 					"id": "6b78000b-5ebd-4db6-a7dd-e5882c162fba",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
