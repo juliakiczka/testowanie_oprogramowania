@@ -197,7 +197,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.trello.com/1/lists/64ff648fe4e4d37ac512996e?key={{APIKey}}&token={{Token}}",
+									"raw": "https://api.trello.com/1/lists/{{testingList}}?key={{APIKey}}&token={{Token}}",
 									"protocol": "https",
 									"host": [
 										"api",
@@ -207,7 +207,7 @@
 									"path": [
 										"1",
 										"lists",
-										"64ff648fe4e4d37ac512996e"
+										"{{testingList}}"
 									],
 									"query": [
 										{
@@ -781,12 +781,12 @@
 	],
 	"variable": [
 		{
-			"id": "876a5610-e346-4dd9-a811-d1ae1411fcc1",
+			"id": "45ed0600-026c-4077-b76f-192598c12008",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "a0df8153-cf64-42a4-97cd-ebc7c9909e87",
+			"id": "5b2d736a-eb0f-4bbb-94bb-b16f8c74b945",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
