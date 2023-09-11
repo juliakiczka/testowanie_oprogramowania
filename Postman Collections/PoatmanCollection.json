@@ -469,18 +469,6 @@
 								}
 							},
 							"response": []
-						},
-						{
-							"name": "deleteList",
-							"id": "d64ce625-357f-435b-b026-4889b2617daf",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": []
-							},
-							"response": []
 						}
 					],
 					"id": "c8782fd7-784c-4ac2-bcd8-c66cc9868b32"
@@ -834,12 +822,12 @@
 	],
 	"variable": [
 		{
-			"id": "ea07d8fa-ba11-45b8-8be6-380ee4da5527",
+			"id": "f33902f2-b295-4323-8dce-fd68c5ac77bd",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "90d87cdf-d3f5-428c-bc01-02a2d84cd9a5",
+			"id": "daa4b246-d069-4bbe-bdce-b8ff540c3862",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
