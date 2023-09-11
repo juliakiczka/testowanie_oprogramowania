@@ -259,6 +259,42 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "deleteCard",
+					"id": "02c6b168-2a8c-4277-b178-d9fa893c91b4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/cards/64ff765e63c162ec13c530df?key={{APIKey}}&token={{Token}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"cards",
+								"64ff765e63c162ec13c530df"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{APIKey}}"
+								},
+								{
+									"key": "token",
+									"value": "{{Token}}"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "6882d7c1-fc23-4464-a13f-a9d2c4a8cf5b"
@@ -382,42 +418,6 @@
 							"key": "idBoard",
 							"value": "64c62e005a79455b3dfbe035"
 						},
-						{
-							"key": "key",
-							"value": "{{APIKey}}"
-						},
-						{
-							"key": "token",
-							"value": "{{Token}}"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "deleteCard",
-			"id": "02c6b168-2a8c-4277-b178-d9fa893c91b4",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/cards/64c64c74a3c3dead207b1ebe?key={{APIKey}}&token={{Token}}",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"cards",
-						"64c64c74a3c3dead207b1ebe"
-					],
-					"query": [
 						{
 							"key": "key",
 							"value": "{{APIKey}}"
@@ -645,12 +645,12 @@
 	],
 	"variable": [
 		{
-			"id": "5b2f7eaf-6d9a-4445-bd4b-bc1ea2c8fe66",
+			"id": "1363fd8b-4dad-483b-98e4-305352c45aef",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "69b5686a-02d2-49ce-af8b-72735107df40",
+			"id": "415baa09-6086-4238-a4ae-bd0e570006fa",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
