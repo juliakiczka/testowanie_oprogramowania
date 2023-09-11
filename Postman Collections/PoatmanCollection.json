@@ -77,7 +77,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "deleteBoard",
 					"id": "043e18d3-bbf6-47c5-b2e0-013bbda65e52",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
