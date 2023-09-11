@@ -6,6 +6,11 @@
 	},
 	"item": [
 		{
+			"name": "New Folder",
+			"item": [],
+			"id": "6882d7c1-fc23-4464-a13f-a9d2c4a8cf5b"
+		},
+		{
 			"name": "addBoard",
 			"id": "984d31c8-ee75-4a66-9e86-8d90b2482861",
 			"protocolProfileBehavior": {
