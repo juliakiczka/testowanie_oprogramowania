@@ -192,54 +192,60 @@
 				},
 				{
 					"name": "put",
-					"item": [],
+					"item": [
+						{
+							"name": "updateBoard",
+							"id": "a989a744-07a3-414d-9315-f22c9c227daa",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "https://api.trello.com/1/boards/64ff60a28acf5e7f89e77756?key={{APIKey}}&token={{Token}}&name=teścik&desc=to jest test puta",
+									"protocol": "https",
+									"host": [
+										"api",
+										"trello",
+										"com"
+									],
+									"path": [
+										"1",
+										"boards",
+										"64ff60a28acf5e7f89e77756"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{APIKey}}"
+										},
+										{
+											"key": "token",
+											"value": "{{Token}}"
+										},
+										{
+											"key": "name",
+											"value": "teścik",
+											"type": "text"
+										},
+										{
+											"key": "desc",
+											"value": "to jest test puta",
+											"type": "text"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
 					"id": "44c605c5-3e67-47bd-8303-db49d5ce75f5"
 				},
 				{
-					"name": "updateBoard",
-					"id": "a989a744-07a3-414d-9315-f22c9c227daa",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "PUT",
-						"header": [],
-						"url": {
-							"raw": "https://api.trello.com/1/boards/64ff60a28acf5e7f89e77756?key={{APIKey}}&token={{Token}}&name=teścik&desc=to jest test puta",
-							"protocol": "https",
-							"host": [
-								"api",
-								"trello",
-								"com"
-							],
-							"path": [
-								"1",
-								"boards",
-								"64ff60a28acf5e7f89e77756"
-							],
-							"query": [
-								{
-									"key": "key",
-									"value": "{{APIKey}}"
-								},
-								{
-									"key": "token",
-									"value": "{{Token}}"
-								},
-								{
-									"key": "name",
-									"value": "teścik",
-									"type": "text"
-								},
-								{
-									"key": "desc",
-									"value": "to jest test puta",
-									"type": "text"
-								}
-							]
-						}
-					},
-					"response": []
+					"name": "New Folder",
+					"item": [],
+					"id": "c8782fd7-784c-4ac2-bcd8-c66cc9868b32"
 				},
 				{
 					"name": "deleteBoard",
@@ -662,12 +668,12 @@
 	],
 	"variable": [
 		{
-			"id": "c802c067-2c68-4759-846c-e2fe54856868",
+			"id": "b8a7ce66-29fd-4976-917e-57c2a9ddbb20",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "17e5c522-3596-42d0-ac92-76cb77d237d3",
+			"id": "1a3c276f-ee9e-40d0-9ea2-54b6a3c719e9",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
