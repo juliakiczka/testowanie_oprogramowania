@@ -18,7 +18,7 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "https://api.trello.com/1/boards/?name=TestAPI&key=4f3fe9fdd287efbadf3749be60550d51&token=ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA&idOrganization=64ce2b9912b08cdf0a5b7c5f",
+							"raw": "https://api.trello.com/1/boards/?name=ProjektKońcowy&key=4f3fe9fdd287efbadf3749be60550d51&token=ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA&idOrganization=64ce2b9912b08cdf0a5b7c5f",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -33,7 +33,7 @@
 							"query": [
 								{
 									"key": "name",
-									"value": "TestAPI"
+									"value": "ProjektKońcowy"
 								},
 								{
 									"key": "key",
