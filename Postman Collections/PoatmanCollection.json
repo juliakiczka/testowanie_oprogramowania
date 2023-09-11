@@ -150,44 +150,50 @@
 				},
 				{
 					"name": "get",
-					"item": [],
+					"item": [
+						{
+							"name": "getBoard",
+							"id": "854f7b6b-ad62-4962-911e-723d130bec5b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.trello.com/1/boards/64ff5a3d7f28ebad2dc6850a?key={{APIKey}}&token={{Token}}",
+									"protocol": "https",
+									"host": [
+										"api",
+										"trello",
+										"com"
+									],
+									"path": [
+										"1",
+										"boards",
+										"64ff5a3d7f28ebad2dc6850a"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{APIKey}}"
+										},
+										{
+											"key": "token",
+											"value": "{{Token}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
 					"id": "a46e783c-4293-4b8a-b4a5-a92fe37c92d9"
 				},
 				{
-					"name": "getBoard",
-					"id": "854f7b6b-ad62-4962-911e-723d130bec5b",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "https://api.trello.com/1/boards/64ff5a3d7f28ebad2dc6850a?key={{APIKey}}&token={{Token}}",
-							"protocol": "https",
-							"host": [
-								"api",
-								"trello",
-								"com"
-							],
-							"path": [
-								"1",
-								"boards",
-								"64ff5a3d7f28ebad2dc6850a"
-							],
-							"query": [
-								{
-									"key": "key",
-									"value": "{{APIKey}}"
-								},
-								{
-									"key": "token",
-									"value": "{{Token}}"
-								}
-							]
-						}
-					},
-					"response": []
+					"name": "New Folder",
+					"item": [],
+					"id": "44c605c5-3e67-47bd-8303-db49d5ce75f5"
 				},
 				{
 					"name": "updateBoard",
@@ -656,12 +662,12 @@
 	],
 	"variable": [
 		{
-			"id": "e24891fe-da0c-44b9-be0c-3c2d3a3af6d0",
+			"id": "a7e02756-6e01-4531-b7b8-892701cc9414",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "9fecb561-332b-4f29-90ba-d565fd28c8d7",
+			"id": "3fc2a2b9-19b0-4791-a665-ae583f5ec893",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
