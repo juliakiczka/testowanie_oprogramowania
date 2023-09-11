@@ -7,7 +7,20 @@
 	"item": [
 		{
 			"name": "projektKońcowy",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "6b78000b-5ebd-4db6-a7dd-e5882c162fba",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "6882d7c1-fc23-4464-a13f-a9d2c4a8cf5b"
 		},
 		{
