@@ -243,7 +243,7 @@
 					"id": "44c605c5-3e67-47bd-8303-db49d5ce75f5"
 				},
 				{
-					"name": "New Folder",
+					"name": "delete",
 					"item": [],
 					"id": "c8782fd7-784c-4ac2-bcd8-c66cc9868b32"
 				},
@@ -668,12 +668,12 @@
 	],
 	"variable": [
 		{
-			"id": "b8a7ce66-29fd-4976-917e-57c2a9ddbb20",
+			"id": "a4967f38-ef88-4891-b2bc-98eac736b60f",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "1a3c276f-ee9e-40d0-9ea2-54b6a3c719e9",
+			"id": "d5db93a3-b258-4dde-a3a3-55b513b342db",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
