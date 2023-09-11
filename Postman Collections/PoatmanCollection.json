@@ -233,7 +233,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.trello.com/1/cards/64ff753a94f2aeaefbbe7f20?key={{APIKey}}&token={{Token}}",
+									"raw": "https://api.trello.com/1/cards/{{firstTaskCard}}?key={{APIKey}}&token={{Token}}",
 									"protocol": "https",
 									"host": [
 										"api",
@@ -243,7 +243,7 @@
 									"path": [
 										"1",
 										"cards",
-										"64ff753a94f2aeaefbbe7f20"
+										"{{firstTaskCard}}"
 									],
 									"query": [
 										{
@@ -793,12 +793,12 @@
 	],
 	"variable": [
 		{
-			"id": "7eee88f5-a73a-4b58-8a3e-8ddd3163da4c",
+			"id": "0b9bfc85-6a7c-4233-b2c4-aa0e820b73ff",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "f34bdc4a-4ad4-4299-8a6c-05eba5b92422",
+			"id": "760c060e-9076-476b-8812-c9be3e1a12ea",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
