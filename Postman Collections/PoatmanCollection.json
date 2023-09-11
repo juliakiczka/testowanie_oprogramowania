@@ -149,7 +149,7 @@
 					"id": "aa20197d-adfa-4873-97b6-7bf0c1356820"
 				},
 				{
-					"name": "New Folder",
+					"name": "get",
 					"item": [],
 					"id": "a46e783c-4293-4b8a-b4a5-a92fe37c92d9"
 				},
@@ -656,12 +656,12 @@
 	],
 	"variable": [
 		{
-			"id": "290edf67-d575-4552-94d1-3bb20420a2c9",
+			"id": "e24891fe-da0c-44b9-be0c-3c2d3a3af6d0",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "0292752f-7e91-4cc5-a153-c4bc392238fe",
+			"id": "9fecb561-332b-4f29-90ba-d565fd28c8d7",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
