@@ -645,9 +645,14 @@
 	],
 	"variable": [
 		{
-			"id": "2d5a2786-e066-4256-a058-92ecc4539dfa",
+			"id": "da0358d8-c851-407a-8db2-fccb3b3a349c",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
+		},
+		{
+			"id": "13e3f6d9-ba83-49bc-a962-7c497aaeb4c4",
+			"key": "idBoard",
+			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
 	]
 }
