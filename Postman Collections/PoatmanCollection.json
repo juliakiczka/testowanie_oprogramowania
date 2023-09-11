@@ -212,6 +212,53 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "createCard",
+					"id": "e400f013-85f0-4551-ba82-d8e53a08d656",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/cards?idList={{testingList}}&key={{APIKey}}&token={{Token}}&name=first task&desc=description",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"cards"
+							],
+							"query": [
+								{
+									"key": "idList",
+									"value": "{{testingList}}"
+								},
+								{
+									"key": "key",
+									"value": "{{APIKey}}"
+								},
+								{
+									"key": "token",
+									"value": "{{Token}}"
+								},
+								{
+									"key": "name",
+									"value": "first task"
+								},
+								{
+									"key": "desc",
+									"value": "description"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "6882d7c1-fc23-4464-a13f-a9d2c4a8cf5b"
@@ -255,53 +302,6 @@
 							"key": "idOrganization",
 							"value": "64ce2b9912b08cdf0a5b7c5f",
 							"type": "text"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "createCard",
-			"id": "e400f013-85f0-4551-ba82-d8e53a08d656",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/cards?idList=64ce2fa2577ce94ae84c001a&key={{APIKey}}&token={{Token}}&name=drugie zadanie&desc=kolejne zadanie",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"cards"
-					],
-					"query": [
-						{
-							"key": "idList",
-							"value": "64ce2fa2577ce94ae84c001a"
-						},
-						{
-							"key": "key",
-							"value": "{{APIKey}}"
-						},
-						{
-							"key": "token",
-							"value": "{{Token}}"
-						},
-						{
-							"key": "name",
-							"value": "drugie zadanie"
-						},
-						{
-							"key": "desc",
-							"value": "kolejne zadanie"
 						}
 					]
 				}
@@ -645,12 +645,12 @@
 	],
 	"variable": [
 		{
-			"id": "b6e33b39-c4f3-4115-b99b-c604c5875fb7",
+			"id": "5b2f7eaf-6d9a-4445-bd4b-bc1ea2c8fe66",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "5dc8594a-fb16-4798-8577-ee042b11174f",
+			"id": "69b5686a-02d2-49ce-af8b-72735107df40",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
