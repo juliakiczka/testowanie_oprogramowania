@@ -595,7 +595,7 @@
 							"response": []
 						},
 						{
-							"name": "New Request",
+							"name": "deleteLabelFromCard",
 							"id": "0d9159c0-ca06-4892-a9b6-00efee2be312",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -958,12 +958,12 @@
 	],
 	"variable": [
 		{
-			"id": "bcde9b5b-bbb8-4319-959e-f4df269f7f69",
+			"id": "421b8325-4ac8-4b84-b338-7ebf80d1faf0",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "b37d97fb-f1bf-4934-92f7-9a00918b6b95",
+			"id": "2f10f77d-4079-4d54-91b0-20e885e74643",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
