@@ -152,8 +152,41 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://api.trello.com/1/boards/{{idBoard}}/labels?name={{$randomAdjective}}&color=pink&key={{APIKey}}&token={{Token}}",
+									"protocol": "https",
+									"host": [
+										"api",
+										"trello",
+										"com"
+									],
+									"path": [
+										"1",
+										"boards",
+										"{{idBoard}}",
+										"labels"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "{{$randomAdjective}}"
+										},
+										{
+											"key": "color",
+											"value": "pink"
+										},
+										{
+											"key": "key",
+											"value": "{{APIKey}}"
+										},
+										{
+											"key": "token",
+											"value": "{{Token}}"
+										}
+									]
+								}
 							},
 							"response": []
 						}
@@ -834,12 +867,12 @@
 	],
 	"variable": [
 		{
-			"id": "90c4be1a-8d39-4eaa-95cf-b75bd8e8cfd3",
+			"id": "d868e2ac-63df-4dbc-8400-dc38841d4e0d",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "f2cf7ed2-d399-4518-836c-16adf8972e08",
+			"id": "d9641f1f-4c86-4bc2-9ccd-94157ea4acb1",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
