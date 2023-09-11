@@ -108,7 +108,7 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "https://api.trello.com/1/cards?idList={{testingList}}&key={{APIKey}}&token={{Token}}&name=first task&desc=description",
+									"raw": "https://api.trello.com/1/cards?idList={{testingList}}&key={{APIKey}}&token={{Token}}&name=second task&desc=description&idLabels=64ff7d7b1551a0bd0802def3",
 									"protocol": "https",
 									"host": [
 										"api",
@@ -134,11 +134,16 @@
 										},
 										{
 											"key": "name",
-											"value": "first task"
+											"value": "second task"
 										},
 										{
 											"key": "desc",
 											"value": "description"
+										},
+										{
+											"key": "idLabels",
+											"value": "64ff7d7b1551a0bd0802def3",
+											"type": "text"
 										}
 									]
 								}
@@ -958,12 +963,12 @@
 	],
 	"variable": [
 		{
-			"id": "421b8325-4ac8-4b84-b338-7ebf80d1faf0",
+			"id": "73cfe1a8-69ea-4399-9666-17d3775f5dbb",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "2f10f77d-4079-4d54-91b0-20e885e74643",
+			"id": "d7a11660-0133-4fe1-8d56-af3d20044a20",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
