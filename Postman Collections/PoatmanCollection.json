@@ -596,5 +596,12 @@
 			},
 			"response": []
 		}
+	],
+	"variable": [
+		{
+			"id": "b46bd752-da4a-4508-a128-fa162afc9456",
+			"key": "{{idOrganization}}",
+			"value": "64ce2b9912b08cdf0a5b7c5f"
+		}
 	]
 }
