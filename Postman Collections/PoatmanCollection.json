@@ -89,7 +89,7 @@
 					"response": []
 				},
 				{
-					"name": "editBoard",
+					"name": "updateBoard",
 					"id": "a989a744-07a3-414d-9315-f22c9c227daa",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -599,7 +599,7 @@
 	],
 	"variable": [
 		{
-			"id": "5aa99e31-f320-4d9c-9152-4d7676da5300",
+			"id": "6f2a265b-cc99-4780-b6ed-d365d0555a6b",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		}
