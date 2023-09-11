@@ -471,7 +471,7 @@
 							"response": []
 						},
 						{
-							"name": "New Request",
+							"name": "deleteList",
 							"id": "d64ce625-357f-435b-b026-4889b2617daf",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -834,12 +834,12 @@
 	],
 	"variable": [
 		{
-			"id": "52eb4e89-34dc-4a2c-8dbf-045206c1b997",
+			"id": "ea07d8fa-ba11-45b8-8be6-380ee4da5527",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "20b33694-96ad-4e68-8ba7-b687c30e73ce",
+			"id": "90d87cdf-d3f5-428c-bc01-02a2d84cd9a5",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
