@@ -475,7 +475,7 @@
 							"response": []
 						},
 						{
-							"name": "New Request",
+							"name": "updateFieldOnList",
 							"id": "1c8d95be-8045-41aa-8550-3d9c16e66fbe",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -916,12 +916,12 @@
 	],
 	"variable": [
 		{
-			"id": "9ad787a1-702a-48dd-8a7d-cc46cda16bc7",
+			"id": "03c30d30-20cd-48c6-aaf2-abef04b9907b",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "fd52b98b-5cf0-465f-a709-0c196f4d2b4a",
+			"id": "037c1d20-1b4a-4a56-855f-33a476da80fa",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
