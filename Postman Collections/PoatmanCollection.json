@@ -96,7 +96,41 @@
 					},
 					"request": {
 						"method": "PUT",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/boards/64ff60a28acf5e7f89e77756?key={{APIKey}}&token={{Token}}&name=teścik&desc=to jest test puta",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"boards",
+								"64ff60a28acf5e7f89e77756"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{APIKey}}"
+								},
+								{
+									"key": "token",
+									"value": "{{Token}}"
+								},
+								{
+									"key": "name",
+									"value": "teścik",
+									"type": "text"
+								},
+								{
+									"key": "desc",
+									"value": "to jest test puta",
+									"type": "text"
+								}
+							]
+						}
 					},
 					"response": []
 				},
@@ -599,7 +633,7 @@
 	],
 	"variable": [
 		{
-			"id": "6f2a265b-cc99-4780-b6ed-d365d0555a6b",
+			"id": "63dfbe97-e12c-4bef-b719-7ff5bfd46060",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		}
