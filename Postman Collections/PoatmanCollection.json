@@ -231,7 +231,31 @@
 							},
 							"request": {
 								"method": "GET",
-								"header": []
+								"header": [],
+								"url": {
+									"raw": "https://api.trello.com/1/cards/64ff753a94f2aeaefbbe7f20?key={{APIKey}}&token={{Token}}",
+									"protocol": "https",
+									"host": [
+										"api",
+										"trello",
+										"com"
+									],
+									"path": [
+										"1",
+										"cards",
+										"64ff753a94f2aeaefbbe7f20"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{APIKey}}"
+										},
+										{
+											"key": "token",
+											"value": "{{Token}}"
+										}
+									]
+								}
 							},
 							"response": []
 						}
@@ -717,12 +741,12 @@
 	],
 	"variable": [
 		{
-			"id": "390868f6-f650-4dc8-9b4a-7c6004e8f905",
+			"id": "f00f1015-e4f9-4e09-ba18-ebbe19f89f99",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "d5a516e7-51db-4116-b060-72e26c81fee3",
+			"id": "ddd2f2ef-2a34-4788-90e0-47f247e0badf",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
