@@ -186,6 +186,18 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "New Request",
+							"id": "f913ad04-7591-4313-9029-1aaac6887858",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
 						}
 					],
 					"id": "a46e783c-4293-4b8a-b4a5-a92fe37c92d9"
@@ -244,80 +256,81 @@
 				},
 				{
 					"name": "delete",
-					"item": [],
+					"item": [
+						{
+							"name": "deleteBoard",
+							"id": "043e18d3-bbf6-47c5-b2e0-013bbda65e52",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://api.trello.com/1/boards/{id}?token={{Token}}&key={{APIKey}}",
+									"protocol": "https",
+									"host": [
+										"api",
+										"trello",
+										"com"
+									],
+									"path": [
+										"1",
+										"boards",
+										"{id}"
+									],
+									"query": [
+										{
+											"key": "token",
+											"value": "{{Token}}"
+										},
+										{
+											"key": "key",
+											"value": "{{APIKey}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteCard",
+							"id": "02c6b168-2a8c-4277-b178-d9fa893c91b4",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://api.trello.com/1/cards/64ff765e63c162ec13c530df?key={{APIKey}}&token={{Token}}",
+									"protocol": "https",
+									"host": [
+										"api",
+										"trello",
+										"com"
+									],
+									"path": [
+										"1",
+										"cards",
+										"64ff765e63c162ec13c530df"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{APIKey}}"
+										},
+										{
+											"key": "token",
+											"value": "{{Token}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
 					"id": "c8782fd7-784c-4ac2-bcd8-c66cc9868b32"
-				},
-				{
-					"name": "deleteBoard",
-					"id": "043e18d3-bbf6-47c5-b2e0-013bbda65e52",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "DELETE",
-						"header": [],
-						"url": {
-							"raw": "https://api.trello.com/1/boards/{id}?token={{Token}}&key={{APIKey}}",
-							"protocol": "https",
-							"host": [
-								"api",
-								"trello",
-								"com"
-							],
-							"path": [
-								"1",
-								"boards",
-								"{id}"
-							],
-							"query": [
-								{
-									"key": "token",
-									"value": "{{Token}}"
-								},
-								{
-									"key": "key",
-									"value": "{{APIKey}}"
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "deleteCard",
-					"id": "02c6b168-2a8c-4277-b178-d9fa893c91b4",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "DELETE",
-						"header": [],
-						"url": {
-							"raw": "https://api.trello.com/1/cards/64ff765e63c162ec13c530df?key={{APIKey}}&token={{Token}}",
-							"protocol": "https",
-							"host": [
-								"api",
-								"trello",
-								"com"
-							],
-							"path": [
-								"1",
-								"cards",
-								"64ff765e63c162ec13c530df"
-							],
-							"query": [
-								{
-									"key": "key",
-									"value": "{{APIKey}}"
-								},
-								{
-									"key": "token",
-									"value": "{{Token}}"
-								}
-							]
-						}
-					},
-					"response": []
 				}
 			],
 			"id": "6882d7c1-fc23-4464-a13f-a9d2c4a8cf5b"
@@ -668,12 +681,12 @@
 	],
 	"variable": [
 		{
-			"id": "a4967f38-ef88-4891-b2bc-98eac736b60f",
+			"id": "a66bbb8e-991e-4990-8ad9-a17d54f71142",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "d5db93a3-b258-4dde-a3a3-55b513b342db",
+			"id": "b480fbba-69e7-419c-83ac-c106be413e3a",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
