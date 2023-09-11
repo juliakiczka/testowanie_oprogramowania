@@ -224,7 +224,7 @@
 							"response": []
 						},
 						{
-							"name": "New Request",
+							"name": "getCard",
 							"id": "273d6c4c-9482-4993-b9ae-6d254577717a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -717,12 +717,12 @@
 	],
 	"variable": [
 		{
-			"id": "6a8644b8-590f-40f3-bf51-e1d85113dd53",
+			"id": "390868f6-f650-4dc8-9b4a-7c6004e8f905",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "7ac6fbcf-0358-4952-bd58-e93f90f8c03c",
+			"id": "d5a516e7-51db-4116-b060-72e26c81fee3",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
