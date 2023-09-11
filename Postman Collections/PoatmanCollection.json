@@ -222,6 +222,18 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "New Request",
+							"id": "273d6c4c-9482-4993-b9ae-6d254577717a",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
 						}
 					],
 					"id": "a46e783c-4293-4b8a-b4a5-a92fe37c92d9"
@@ -705,12 +717,12 @@
 	],
 	"variable": [
 		{
-			"id": "8db015bb-5bd6-409d-98df-55bab5670f90",
+			"id": "6a8644b8-590f-40f3-bf51-e1d85113dd53",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "31656bad-b2f8-4053-80ea-9ef0f1f34779",
+			"id": "7ac6fbcf-0358-4952-bd58-e93f90f8c03c",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
