@@ -146,7 +146,7 @@
 							"response": []
 						},
 						{
-							"name": "New Request",
+							"name": "createLabel",
 							"id": "02985f7a-73a2-4147-8e0f-d6ace61d28d9",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -834,12 +834,12 @@
 	],
 	"variable": [
 		{
-			"id": "de29b173-9ee8-485a-a9b2-53bd58c29344",
+			"id": "90c4be1a-8d39-4eaa-95cf-b75bd8e8cfd3",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "b53c1251-0059-429c-8f39-ee574f8f654c",
+			"id": "f2cf7ed2-d399-4518-836c-16adf8972e08",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
