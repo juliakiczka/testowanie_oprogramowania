@@ -60,7 +60,31 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/boards/{{idBoard}}?key={{Key}}&token={{Token}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"boards",
+								"{{idBoard}}"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{Key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{Token}}"
+								}
+							]
+						}
 					},
 					"response": []
 				},
