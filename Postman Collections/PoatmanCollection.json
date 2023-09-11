@@ -600,7 +600,7 @@
 							"response": []
 						},
 						{
-							"name": "deleteLabelFromCard",
+							"name": "deleteLabelFromCardTODO",
 							"id": "0d9159c0-ca06-4892-a9b6-00efee2be312",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -989,12 +989,12 @@
 	],
 	"variable": [
 		{
-			"id": "6cc731cb-3b12-44b3-902e-608a7bf4f1d7",
+			"id": "11f32203-5221-4d71-9809-577d717739cc",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "5422a220-f54c-494d-8a84-5fddc083092e",
+			"id": "c06380a6-0393-44a8-89b7-e0539498c7e5",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
