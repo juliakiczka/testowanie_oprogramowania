@@ -191,7 +191,7 @@
 					"id": "a46e783c-4293-4b8a-b4a5-a92fe37c92d9"
 				},
 				{
-					"name": "New Folder",
+					"name": "put",
 					"item": [],
 					"id": "44c605c5-3e67-47bd-8303-db49d5ce75f5"
 				},
@@ -662,12 +662,12 @@
 	],
 	"variable": [
 		{
-			"id": "a7e02756-6e01-4531-b7b8-892701cc9414",
+			"id": "c802c067-2c68-4759-846c-e2fe54856868",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "3fc2a2b9-19b0-4791-a665-ae583f5ec893",
+			"id": "17e5c522-3596-42d0-ac92-76cb77d237d3",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
