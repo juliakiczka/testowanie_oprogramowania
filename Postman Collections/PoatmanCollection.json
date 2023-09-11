@@ -352,7 +352,7 @@
 							"response": []
 						},
 						{
-							"name": "New Request",
+							"name": "updateCard",
 							"id": "595c3d98-280c-4805-a03d-4dd9b0741732",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -793,12 +793,12 @@
 	],
 	"variable": [
 		{
-			"id": "ae434a7a-a9e0-42d5-8f1d-893ee7c74a62",
+			"id": "7eee88f5-a73a-4b58-8a3e-8ddd3163da4c",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "530500f0-d279-488f-996d-a74b020f7bd3",
+			"id": "f34bdc4a-4ad4-4299-8a6c-05eba5b92422",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
