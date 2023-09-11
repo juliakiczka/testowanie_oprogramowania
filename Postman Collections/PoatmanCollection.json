@@ -312,7 +312,7 @@
 							"response": []
 						},
 						{
-							"name": "New Request",
+							"name": "updateList",
 							"id": "29f58054-9d2c-4801-a5b8-d350594a4d62",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -753,12 +753,12 @@
 	],
 	"variable": [
 		{
-			"id": "bef4345a-9b74-429c-8d26-6d0c38b7d14c",
+			"id": "513a3196-23e4-4348-bbac-6be4193b68c1",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "eb15c461-cf01-46d9-bf96-bbf32bd33fa5",
+			"id": "8de15bea-7880-4b9b-831b-0afe7c119975",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
