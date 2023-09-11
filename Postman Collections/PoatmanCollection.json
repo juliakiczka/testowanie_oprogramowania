@@ -65,7 +65,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "editBoard",
 					"id": "a989a744-07a3-414d-9315-f22c9c227daa",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
