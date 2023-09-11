@@ -169,6 +169,49 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "createList",
+					"id": "10e073c7-2b9f-4135-9057-a90ac5efa5f2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/lists?name=in progress&idBoard=64ce2de0f212552695c6e365&key=4f3fe9fdd287efbadf3749be60550d51&token=ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"lists"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "in progress"
+								},
+								{
+									"key": "idBoard",
+									"value": "64ce2de0f212552695c6e365"
+								},
+								{
+									"key": "key",
+									"value": "4f3fe9fdd287efbadf3749be60550d51"
+								},
+								{
+									"key": "token",
+									"value": "ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "6882d7c1-fc23-4464-a13f-a9d2c4a8cf5b"
@@ -212,49 +255,6 @@
 							"key": "idOrganization",
 							"value": "64ce2b9912b08cdf0a5b7c5f",
 							"type": "text"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "addList",
-			"id": "10e073c7-2b9f-4135-9057-a90ac5efa5f2",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/lists?name=in progress&idBoard=64ce2de0f212552695c6e365&key=4f3fe9fdd287efbadf3749be60550d51&token=ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"lists"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "in progress"
-						},
-						{
-							"key": "idBoard",
-							"value": "64ce2de0f212552695c6e365"
-						},
-						{
-							"key": "key",
-							"value": "4f3fe9fdd287efbadf3749be60550d51"
-						},
-						{
-							"key": "token",
-							"value": "ATTA671c1f833dfa5c61ac3f4577c68e86e890b21bf59934c54405d5ef616538966eA546FAEA"
 						}
 					]
 				}
@@ -645,7 +645,7 @@
 	],
 	"variable": [
 		{
-			"id": "7442f306-a742-4ef3-a5f0-57dba42f6b27",
+			"id": "2d5a2786-e066-4256-a058-92ecc4539dfa",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		}
