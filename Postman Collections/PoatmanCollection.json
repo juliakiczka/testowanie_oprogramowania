@@ -9,7 +9,7 @@
 			"name": "projektKońcowy",
 			"item": [
 				{
-					"name": "New Folder",
+					"name": "post",
 					"item": [],
 					"id": "aa20197d-adfa-4873-97b6-7bf0c1356820"
 				},
@@ -650,12 +650,12 @@
 	],
 	"variable": [
 		{
-			"id": "6f019e6c-a8dd-43be-9f5f-5dac293dbd6d",
+			"id": "9aabf1ab-effa-4055-8e31-99d267e306af",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		},
 		{
-			"id": "f2a4291a-bccc-41f5-b8ca-93346b127216",
+			"id": "a9ce493c-d290-4951-81b3-13193c7963c0",
 			"key": "idBoard",
 			"value": "64ff5a3d7f28ebad2dc6850a"
 		}
