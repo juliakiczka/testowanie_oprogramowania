@@ -141,8 +141,32 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/boards/{id}?token={{Token}}&key={{APIKey}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"boards",
+								"{id}"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "{{Token}}"
+								},
+								{
+									"key": "key",
+									"value": "{{APIKey}}"
+								}
+							]
+						}
 					},
 					"response": []
 				},
@@ -633,7 +657,7 @@
 	],
 	"variable": [
 		{
-			"id": "63dfbe97-e12c-4bef-b719-7ff5bfd46060",
+			"id": "3a767733-7fa9-4af8-a7c7-a8f9276e9bd0",
 			"key": "{{idOrganization}}",
 			"value": "64ce2b9912b08cdf0a5b7c5f"
 		}
